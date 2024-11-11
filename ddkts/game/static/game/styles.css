@@ -1,0 +1,61 @@
+body {
+  margin: 0px;
+  font-size: x-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.main {
+  margin: 20px;
+  display: flex;
+  /* You can change this to `row` if you want the items side by side instead of stacked */
+  flex-direction: column;
+}
+h1 {
+  text-align: center;
+
+}
+form {
+  text-align: center;
+  margin: 10px;
+}
+/* a {
+    padding: 300px;
+} */
+
+input[type="submit"],
+a {
+  background-color: blueviolet;
+  color: aliceblue;
+
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-color: white;
+  border-style: hidden;
+  padding: 10px;
+  margin: 50px;
+  border-radius: 4px;
+
+  /* width: 50px; */
+  font-size: xx-large;
+}
+
+.message {
+  width: 100%;
+  height: 40px;
+  background-color: antiquewhite;
+  border-left: none;
+  border-right: none;
+  border: 3px;
+  border-color: rgb(217, 155, 79);
+  list-style-type: none;
+  margin: 5px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.error {
+  background-color: pink;
+  border-color: red;
+}

@@ -1,0 +1,18 @@
+{% extends "game/layout.html" %}
+
+{% block body %}
+  <form action="{% url 'play' %}" method="post">
+    {% csrf_token %}
+    <label for="username">Enter username:</label>
+    <input type="text" name="username">
+    <label for="timeframe">In the past:</label>
+    <select name="timeframe">
+      <option value="day">Day</option>
+      <option value="week">Week</option>
+      <option value="month">Month</option>
+    </select>
+    <br>
+    <input type="submit" name="play" value="Play">
+
+  </form>
+{% endblock body %}
